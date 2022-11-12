@@ -1,4 +1,3 @@
-
 let mushroom = [
     { 
         id: 1,
