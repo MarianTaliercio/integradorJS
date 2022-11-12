@@ -1,0 +1,42 @@
+
+.mostrarproductos{
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.informacion{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    /* justify-content: center; */
+    /* min-width: 200px; */
+    border-top: 3px solid hsl(180, 62%, 55%);    
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+    /* font-size: 11px;  */
+    text-align: center; 
+}
+
+.ocultar{
+    display: hidden;
+}
+
+.active{
+    color: blue;
+}
+
+.btn-load {
+    margin: 0 auto;
+    width: 20%;
+    background: grey;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
